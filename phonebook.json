@@ -1,0 +1,31 @@
+{
+  "Atyrau": {
+    "phonebook": [
+      {"name": "John Doe", "phone": "+1234567890"},
+      {"name": "Jane Doe", "phone": "+9876543210"}
+    ],
+    "hospitals": [
+      {"name": "1 Городская больница", "number": "700-800-05", "address": "Кунаева 12"},
+      {"name": "3 Городская больница", "number": "601-561-07", "address": "Каражорга 11"}
+    ],
+    "schools": [
+      {"name": "School X", "number": "S001", "address": "789 Elm St"},
+      {"name": "School Y", "number": "S002", "address": "567 Birch St"}
+    ]
+  },
+  "Astana": {
+    "phonebook": [
+      {"name": "Саша Карп", "phone": "+77081225312"},
+      {"name": "Даурен Болат", "phone": "+42342342345"}
+    ],
+    "hospitals": [
+      {"name": "2 Городская больница", "number": "300-789-01", "address": "Бейбитшилик 32"},
+      {"name": "2 Операционная часть", "number": "202-675-01", "address": "Кунаева 12"}
+    ],
+    "schools": [
+      {"name": "School X", "number": "S001", "address": "789 Elm St"},
+      {"name": "School Y", "number": "S002", "address": "567 Birch St"}
+    ]
+  }
+
+}
