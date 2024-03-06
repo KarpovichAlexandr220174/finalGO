@@ -1,7 +1,6 @@
 // final.go/cmd/web/main/main.go
 package main
 
-//dauren
 import (
 	"finalGO/pkg/drivers"
 	"log"
