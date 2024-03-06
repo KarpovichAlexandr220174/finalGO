@@ -28,6 +28,8 @@ func main() {
 	mux.HandleFunc("/city/hospitals/", searchHospitalsPageHandler)
 	mux.HandleFunc("/search/hospitals/", searchHospitalsHandler)
 
+	mux.HandleFunc("/city/schools/", searchSchoolsPageHandler)
+	mux.HandleFunc("/search/schools/", searchSchoolsHandler)
 	fileServer := http.FileServer(http.Dir("./ui/static/"))
 
 	mux.Handle("/static/", http.StripPrefix("/static", fileServer))

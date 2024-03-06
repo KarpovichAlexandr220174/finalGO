@@ -1,11 +1,11 @@
-{{ define "search-result.tmpl" }}
+{{ define "search-schools.tmpl" }}
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search Result - {{.City}}</title>
+    <title>Школы - {{.City}}</title>
     <link rel="stylesheet" type="text/css" href="/static/css/for-search.css">
 </head>
 
@@ -19,27 +19,21 @@
         </div>
     </header>
 
-    <h2>Результаты поиска в городе {{.City}}</h2>
-    <form action="/search" method="post">
-        <label for="phone">Номер телефона:</label>
-        <input type="text" id="phone" name="phone">
-        <br>
-        <label for="name">Фамилия Имя Отчество:</label>
+    <h2>Школы города {{.City}}</h2>
+
+    <!-- Форма поиска по больницам -->
+    <form action="/search/schools/{{.City}}" method="post">
+        <label for="name">Название:</label>
         <input type="text" id="name" name="name">
+        <br>
+        <label for="number">Номер:</label>
+        <input type="text" id="number" name="number">
+        <br>
+        <label for="address">Адрес:</label>
+        <input type="text" id="address" name="address">
         <br>
         <input type="submit" value="Искать">
     </form>
-
-   <h3>Телефоны:</h3>
-   <ul>
-   	{{ range .Phonebook }}
-   		<li>
-   			ФИО: {{ .Name }} <br>
-   			Номер: {{ .Phone }}
-   		</li>
-   	{{ end }}
-   </ul>
-
 
     {{ template "footer" . }}
 </body>

@@ -9,7 +9,7 @@
       {"name": "3 Городская больница", "number": "601-561-07", "address": "Каражорга 11"}
     ],
     "schools": [
-      {"name": "School X", "number": "S001", "address": "789 Elm St"},
+      {"name": "Школа-Гимназия №31", "number": "+7-(7172)-212-54-32", "address": "Момышулы 54"},
       {"name": "School Y", "number": "S002", "address": "567 Birch St"}
     ]
   },
@@ -20,10 +20,12 @@
     ],
     "hospitals": [
       {"name": "2 Городская больница", "number": "300-789-01", "address": "Бейбитшилик 32"},
-      {"name": "2 Операционная часть", "number": "202-675-01", "address": "Кунаева 12"}
+      {"name": "2 Операционная часть", "number": "202-675-01", "address": "Кунаева 12"},
+      {"name": "Astana Clinic(Астана-Клиник)", "number": "+7-701-033-35-36", "address": "Кенесары 52"}
+
     ],
     "schools": [
-      {"name": "School X", "number": "S001", "address": "789 Elm St"},
+      {"name": "Школа-Лицей №62", "number": "+7-(7172)-456-12-56", "address": "Ауезова 47"},
       {"name": "School Y", "number": "S002", "address": "567 Birch St"}
     ]
   }
