@@ -31,44 +31,44 @@
   },
   "Almaty": {
     "phonebook": [
-      {"name": "Elena Ivanova", "phone": "+77771234567"},
-      {"name": "Dmitry Petrov", "phone": "+77001112233"}
+      {"name": "Елена Иванова", "phone": "+77771234567"},
+      {"name": "Дмитрий Петров", "phone": "+77001112233"}
     ],
     "hospitals": [
-      {"name": "City Hospital #5", "number": "500-123-45", "address": "Al-Farabi Ave 77"},
-      {"name": "Emergency Hospital", "number": "911", "address": "Abai Ave 101"}
+      {"name": "Городская больница №5", "number": "500-123-45", "address": "Улица Фль-Фараби 77"},
+      {"name": "Скорая помощь", "number": "911", "address": "Улица Абая 101"}
     ],
     "schools": [
-      {"name": "School #123", "number": "+7-(727)-555-55-55", "address": "Satpayev St 12"},
-      {"name": "Almaty International School", "number": "AIS001", "address": "Zheltoksan St 100"}
+      {"name": "Школа №123", "number": "+7-(727)-555-55-55", "address": "Улица Сатпаева 12"},
+      {"name": "Международная школа Алматы", "number": "AIS001", "address": "Улица Жельтоксан 100"}
     ]
   },
   "Aktobe": {
     "phonebook": [
-      {"name": "Anna Sidorova", "phone": "+77009998877"},
-      {"name": "Sergei Ivanov", "phone": "+77123456789"}
+      {"name": "Анна Сидорова", "phone": "+77009998877"},
+      {"name": "Сергей Иванов", "phone": "+77123456789"}
     ],
     "hospitals": [
-      {"name": "Aktobe Regional Hospital", "number": "600-987-65", "address": "Kazybek Bi St 10"},
-      {"name": "Children's Hospital", "number": "700-543-21", "address": "Bekturov St 5"}
+      {"name": "Региональная больница Актобе", "number": "600-987-65", "address": "Улица Казыбек би 10"},
+      {"name": "Детская больница", "number": "700-543-21", "address": "Улица Бектурова 5"}
     ],
     "schools": [
-      {"name": "School #50", "number": "+7-(7132)-222-22-22", "address": "Mukanova St 30"},
-      {"name": "Aktobe International School", "number": "AIS002", "address": "Zharokov St 15"}
+      {"name": "Школа №50", "number": "+7-(7132)-222-22-22", "address": "Улица Муканова 30"},
+      {"name": "Международная школа Актобе", "number": "AIS002", "address": "Улица Жарокова 15"}
     ]
   },
   "Shymkent": {
     "phonebook": [
-      {"name": "Olga Popova", "phone": "+77778889999"},
-      {"name": "Andrei Kuznetsov", "phone": "+77005556666"}
+      {"name": "Ольга Попова", "phone": "+77778889999"},
+      {"name": "Андрей Кузнецов", "phone": "+77005556666"}
     ],
     "hospitals": [
-      {"name": "City Hospital #3", "number": "300-222-44", "address": "Auezov St 3"},
-      {"name": "Regional Maternity Hospital", "number": "800-333-55", "address": "Tusupbayev St 15"}
+      {"name": "Городская больница №3", "number": "300-222-44", "address": "Улица Ауезова 3"},
+      {"name": "Региональная больница №78", "number": "800-333-55", "address": "Улица Тусупбаева 15"}
     ],
     "schools": [
-      {"name": "School #15", "number": "+7-(7252)-333-33-33", "address": "Auezov St 100"},
-      {"name": "Shymkent International School", "number": "SIS001", "address": "Baitursynov St 25"}
+      {"name": "Школа №15", "number": "+7-(7252)-333-33-33", "address": "Улица Ауезова 100"},
+      {"name": "Международная школа Шымкент", "number": "SIS001", "address": "Улица Байтурсынова 25"}
     ]
   }
 }
